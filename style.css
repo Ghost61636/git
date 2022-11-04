@@ -1,0 +1,44 @@
+body {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background: #03c2fc;
+    color:aliceblue;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.header_item {
+    padding: 10px 15px;
+    margin-left: 5px;
+    
+}
+.logo {
+    font-weight: bold;
+}
+
+.link:hover {
+    color: orange
+}
+
+.header_item:hover {
+    background-color: #2630c5;
+    border-radius: 5px;
+}
