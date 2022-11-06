@@ -9,7 +9,7 @@ a {
 }
 
 .header {
-    background: #03c2fc;
+    background: #2f2f30;
     color:aliceblue;
     padding: 20px;
 
@@ -34,11 +34,11 @@ a {
     font-weight: bold;
 }
 
-.link:hover {
-    color: orange
+.link {
+    color:#a8a8aa;
 }
 
 .header_item:hover {
-    background-color: #2630c5;
+    background-color: #424246;
     border-radius: 5px;
 }
