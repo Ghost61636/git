@@ -42,3 +42,20 @@ a {
     background-color: #424246;
     border-radius: 5px;
 }
+
+.main_books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_books_item {
+    width: 350px;
+    height: 500px;
+    background: rgb(88, 87, 87);
+    color: white;
+    margin: 25px 50px 25px 0px;
+}
+
+p {
+    text-align: center;
+}
