@@ -5,7 +5,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color:#a8a8aa;
 }
 
 .header {
@@ -25,22 +25,24 @@ a {
     align-items: center;
 }
 
+.logo {
+    color:rgb(88, 139, 248);
+    font-weight: bold;
+}
+
 .header_item {
     padding: 10px 15px;
     margin-left: 5px;
     
 }
-.logo {
-    font-weight: bold;
-}
-
-.link {
-    color:#a8a8aa;
-}
 
 .header_item:hover {
     background-color: #424246;
     border-radius: 5px;
+}
+
+main {
+    background: rgb(230, 229, 229);
 }
 
 .main_books {
@@ -49,13 +51,23 @@ a {
 }
 
 .main_books_item {
+    display: flex;
     width: 350px;
     height: 500px;
     background: rgb(88, 87, 87);
     color: white;
-    margin: 25px 50px 25px 0px;
+    margin: 25px;
+
+    align-items: center;
+    justify-content: center;
 }
 
-p {
-    text-align: center;
+.info {
+    display: none;
 }
+
+.main_books_item:hover .info{
+    display: block;
+}
+
+
