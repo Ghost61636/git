@@ -48,26 +48,40 @@ main {
 .main_books {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .main_books_item {
+    position: relative;
     display: flex;
     width: 350px;
     height: 500px;
     background: rgb(88, 87, 87);
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 25px;
 
-    align-items: center;
+    align-items: end;
     justify-content: center;
+
+    cursor: pointer;
+    border-radius: 15px;
 }
 
 .info {
     display: none;
+    position: absolute;
 }
 
-.main_books_item:hover .info{
+.main_books_item:hover .info {
     display: block;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.main_books_item:hover img {
+    opacity: 0.2;
 }
 
 
