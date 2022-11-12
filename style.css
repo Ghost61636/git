@@ -41,11 +41,10 @@ a {
     border-radius: 5px;
 }
 
-main {
-    background: rgb(230, 229, 229);
-}
 
 .main_books {
+    background: rgb(230, 229, 229);
+
     display: flex;
     flex-wrap: wrap;
 
@@ -67,12 +66,12 @@ main {
     border-radius: 15px;
 }
 
-.info {
+.book_info {
     display: none;
     position: absolute;
 }
 
-.main_books_item:hover .info {
+.main_books_item:hover .book_info {
     display: block;
 }
 
