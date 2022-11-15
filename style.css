@@ -8,6 +8,8 @@ a {
     color:#a8a8aa;
 }
 
+/* Стили хедера */
+
 .header {
     background: #2f2f30;
     color:aliceblue;
@@ -26,7 +28,7 @@ a {
 }
 
 .logo {
-    color:rgb(88, 139, 248);
+    color:#34b7f3;
     font-weight: bold;
 }
 
@@ -40,6 +42,8 @@ a {
     background-color: #424246;
     border-radius: 5px;
 }
+
+/* Стили основного блока */
 
 main {
     background: rgb(230, 229, 229);
@@ -63,13 +67,15 @@ main {
     align-items: end;
     justify-content: center;
 
-    cursor: pointer;
     border-radius: 15px;
 }
+
+/* Стили блока информации при наведении */
 
 .info {
     display: none;
     position: absolute;
+    font-size: 16px;
 }
 
 .main_books_item:hover .info {
@@ -81,7 +87,30 @@ img {
 }
 
 .main_books_item:hover img {
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
+.btn {
+    appearance: none;
+    cursor: pointer;
+    font-family: inherit;
 
+    border: 0;
+    border-radius: 10px;
+    background: #4676D7;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+
+    margin-bottom: 5px;
+    min-width: 100px;
+}
+
+.btn:hover {
+    background: #1d49aa;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 #cbd6ee;
+}
