@@ -43,6 +43,7 @@ a {
     border-radius: 5px;
 }
 
+
 /* Стили основного блока */
 
 main {
@@ -50,6 +51,8 @@ main {
 }
 
 .main_books {
+    background: rgb(230, 229, 229);
+
     display: flex;
     flex-wrap: wrap;
 
@@ -70,15 +73,17 @@ main {
     border-radius: 15px;
 }
 
+
 /* Стили блока информации при наведении */
 
-.info {
+.book_info {
+
     display: none;
     position: absolute;
     font-size: 16px;
 }
 
-.main_books_item:hover .info {
+.main_books_item:hover .book_info {
     display: block;
 }
 
